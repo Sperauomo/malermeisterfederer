@@ -1,0 +1,167 @@
+/******************BASICS***************/
+html {
+    scroll-behavior: smooth;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-height: 100% !important;
+}
+
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    color: rgb(4, 225, 16) !important;
+}
+
+.container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/*MENU*/
+@media (min-width: 70em) {
+    .flex-center {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-evenly !important;
+    }
+}
+/*NAV*/
+nav {
+    background-color: rgb(113, 54, 66);
+    font-size: 1.5em;
+}
+
+.nav-item {
+    color: white !important;
+    width: auto;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.currentnav {
+    color: rgb(4, 225, 16) !important;
+}
+
+/*NAV HOVER*/
+.nav-item {
+    transition: transform .3s ease;
+}
+.nav-item:hover {
+    transform: scale(1.1);
+}
+
+
+.btn {
+    background-color: rgb(4, 225, 16) !important;
+    border: none;
+}
+
+.dropdown {
+    border: none;
+    margin-right: 5%;
+    padding-right: 5%;
+}
+
+
+.logo {
+    max-width: 200px;
+    width: 50%;
+    height: auto !important;
+}
+
+.icon {
+    max-width: 70px;
+    width: 50%;
+    height: auto !important;
+}
+
+
+/*BUTTON*/
+
+
+.button2 {
+    background-color: rgb(242, 153,164);
+    font-size: 1.7em !important;
+    transition: transform .3s ease;
+}
+
+
+.button2:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+/******************USP****************/
+section {
+    color: white !important;
+}
+
+
+.background {
+    background-color: rgb(113, 54, 66);
+    padding: 15px !important;
+}
+
+.padding {
+    max-width: 105%;
+}
+
+/* For animation transition */
+.reveal {
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    opacity: 1;
+}
+
+
+
+/************IMAGE SLIDER**************/
+
+@media (min-width: 70em) {
+    .imageslider {
+        width: 800px !important;
+    }
+}
+
+
+
+/*FOOTER*/
+
+footer {
+    color: white !important;
+}
+.footer {
+    background-color: rgb(113, 54, 66);
+}
+
+img.footer {
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-color {
+    background-color: rgb(113, 54, 66);
+}
+
+.p-4 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
